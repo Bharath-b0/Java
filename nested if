@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        Main obj=new Main();
+        obj.check(a);
+    }
+    public void check(int a){
+        if(a==1 || a==2 || a==3){
+            if(a==1 || a==2){
+                if(a==1)
+                System.out.println("Engineering");
+                else
+                System.out.println("Medical");
+            }
+            else{
+                System.out.println("Arts");
+            }
+        }
+        else{
+            System.out.println("Invalid");
+        }
+    }
+}
