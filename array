@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        int a[]={1,3,5,7};
+        int n;
+        System.out.println(a.length);
+        for(int i=0;i<a.length;i++){
+            if(a[i]==5){
+                System.out.println(i);
+            }
+        }
+    }
+}
